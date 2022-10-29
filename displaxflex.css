@@ -1,0 +1,141 @@
+/*dimenciones del cuerpo*/
+body{
+    width: 1440px;
+    background-color: hsl(0, 0%, 98%);
+}
+/*dimenciones barra de navegacion*/
+.bar__nav{
+    margin-top: 22px;
+    height: 43px;
+    width: 1440px;
+    display: flex;
+    align-items: center;
+}
+
+.Snap{
+    margin-left: 2.91%;
+}
+
+.box__Menus{
+    margin-left: 4.3%;
+    width: 380px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*Menu features*/
+.menu__Features{
+    position: relative;
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+
+/*sub menu Features*/
+.li_Menu_Features{
+    width: 140px;
+    height: 200px;
+    position: absolute;
+    right: 0px;
+    top: 100%;        /*modificar aqui si algo sale mal en el memnu*/
+    display: none;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items:baseline;
+    padding-left: 40px;
+    font-size: 16px;
+}
+
+.menu__Company{
+    position: relative;
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+.li_Menu_Company {
+    width: 100px;
+    height: 150px;
+    position: absolute;
+    top: 100%;        /*modificar aqui si algo sale mal en el memnu*/
+    display: none;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items:baseline;
+    padding-left: 30px;
+    font-size: 16px;
+}
+.ico{
+    padding-right: 10px;
+}
+
+.menu__Login{
+    margin-left: 44.375%;
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+/*bordes register*/
+.li__Register{
+    width: 104px;
+    height: 42px;
+    border: 2px solid hsl(0, 0%, 41%);
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/*contenedor pincipal texto e imagenes*/
+.contenedor__padre{
+    width: 1140px;
+    height: 688px;
+    margin-top: 113px;
+    margin-left: 148px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.contenido__texto{
+    width: 515px;
+    height: 545px;
+    margin-top: 143px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.make{
+    width: 506px;
+    height: 146px;
+}
+.get_your{
+    width: 425px;
+}
+
+.button_Leran_more{
+    width: 163px;
+    height: 57px;
+    border: 1px solid hsl(0, 0%, 8%);
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenido__img{
+    width: 512px;
+    height: 688px;
+    overflow: hidden;
+}
+.img__pie{
+    width: 476px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+}

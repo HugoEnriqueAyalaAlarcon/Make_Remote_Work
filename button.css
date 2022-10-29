@@ -1,0 +1,32 @@
+/*******menu Features****/
+.menu__Features:hover >  img{
+    transform: rotate(-180deg);
+}
+.menu__Features:hover > .li_Menu_Features {
+    display: flex;
+}
+
+/*******menu Features****/
+.menu__Company:hover >  img{
+    transform: rotate(-180deg);
+}
+.menu__Company:hover > .li_Menu_Company {
+    display: flex;
+    cursor: pointer;                
+}
+
+a:hover{
+    color: hsl(0, 0%, 8%);
+    font-weight: 500;
+}
+
+.Color__Text{
+    color: hsl(0, 0%, 98%);
+}
+
+/*botton Learn more*/
+.button_Leran_more:hover {
+    background-color: hsl(0, 0%, 98%);
+    color: hsl(0, 0%, 8%);
+    border: 1px, solid, hsl(0, 0%, 8%);
+}

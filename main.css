@@ -1,0 +1,62 @@
+*{
+    box-sizing: content-box;
+    margin: 0;
+    padding: 0;
+    /*outline: 1px rgb(56, 56, 56) solid;*/
+    font-family: 'Epilogue', sans-serif;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: hsl(0, 0%, 41%);
+}
+/*stylos barra de navegacion*/
+.bar__nav{
+    color: hsl(0, 0%, 41%);
+}
+
+.Snap{
+    font-weight: 700;
+    font-size: 40px;
+    color: hsl(0, 0%, 8%);
+}
+
+.box__Menus{
+    margin-left: 4.3%;
+    width: 380px;
+    display: flex;
+    justify-content: space-between;
+    color: hsl(0, 0%, 41%);
+    font-size: 16px;
+}
+/*estilo menus Features*/
+.li_Menu_Features{
+
+    box-shadow: 0px 0px 23px 1px hsl(0, 0%, 77%);
+    border-radius: 10px;
+    background-color: hsl(0, 0%, 98%);
+}
+
+.li_Menu_Company{
+    box-shadow: 0px 0px 23px 1px hsl(0, 0%, 77%);
+    border-radius: 10px;
+    background-color: hsl(0, 0%, 98%);
+}
+/*estilos cajas de texto*/
+.make{
+    color: hsl(0, 0%, 8%);
+    font-size: 77px;
+    font-weight: 700;
+}
+
+.get__your{
+    color: hsl(0, 0%, 41%);
+    font-size: 20px;
+    line-height: 30px;      /*separacion entre renglones de texto*/
+}
+/*estilo boton learn*/
+.button_Leran_more{
+    color: hsl(0, 0%, 98%);
+    background-color: hsl(0, 0%, 8%);
+    
+}
