@@ -1,44 +1,37 @@
-/*dimenciones del cuerpo*/
-body{
-    width: 1440px;
-    background-color: hsl(0, 0%, 98%);
-}
 /*dimenciones barra de navegacion*/
-.bar__nav{
+.nav{
     margin-top: 22px;
     height: 43px;
     width: 1440px;
     display: flex;
     align-items: center;
 }
-
-.Snap{
+/**texto Snap asemenja icono*/
+.nav__Snap{
     margin-left: 2.91%;
 }
-
-.box__Menus{
+/*caja para menus, careers y about*/
+.nav__Menus{
     margin-left: 4.3%;
     width: 380px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-
-/*Menu features*/
-.menu__Features{
+/*dimenciones para cajas de menus en nav*/
+.nav__box-Menu-Feature{
     position: relative;
     height: 60px;
     display: flex;
     align-items: center;
 }
-
-/*sub menu Features*/
-.li_Menu_Features{
+/*sub menu Features invisible*/
+.nav__Menu-Desplegable-lista{
     width: 140px;
     height: 200px;
     position: absolute;
     right: 0px;
-    top: 100%;        /*modificar aqui si algo sale mal en el memnu*/
+    top: 100%;       
     display: none;
     flex-direction: column;
     justify-content: space-around;
@@ -46,18 +39,23 @@ body{
     padding-left: 40px;
     font-size: 16px;
 }
-
-.menu__Company{
+/*separacion de iconos en el sub menu*/
+.nav__Menu-Desplegable-ico{
+    padding-right: 10px;
+}
+/*menu company
+.nav__box-Menu-Company{
     position: relative;
     height: 60px;
     display: flex;
     align-items: center;
 }
-.li_Menu_Company {
+/*sub menu Company invisible*/
+.nav__Menu-Desplegable-lista-Company {
     width: 100px;
     height: 150px;
     position: absolute;
-    top: 100%;        /*modificar aqui si algo sale mal en el memnu*/
+    top: 100%;       
     display: none;
     flex-direction: column;
     justify-content: space-around;
@@ -65,11 +63,8 @@ body{
     padding-left: 30px;
     font-size: 16px;
 }
-.ico{
-    padding-right: 10px;
-}
-
-.menu__Login{
+/*caja padre de login y register*/
+.nav__box-login{
     margin-left: 44.375%;
     width: 200px;
     display: flex;
@@ -78,7 +73,7 @@ body{
     align-items: center;
 }
 /*bordes register*/
-.li__Register{
+.nav__Botton-Register{
     width: 104px;
     height: 42px;
     border: 2px solid hsl(0, 0%, 41%);
@@ -87,10 +82,9 @@ body{
     justify-content: center;
     align-items: center;
 }
-
-
+/*************************fin de nav*************/
 /*contenedor pincipal texto e imagenes*/
-.contenedor__padre{
+.contener{
     width: 1140px;
     height: 688px;
     margin-top: 113px;
@@ -99,25 +93,18 @@ body{
     flex-direction: row;
     justify-content: space-between;
 }
-
-.contenido__texto{
+/*contenedor texto*/
+.contener__text{
     width: 515px;
-    height: 545px;
-    margin-top: 143px;
+    height: 600px;
+    margin-top: 90px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
-
-.make{
-    width: 506px;
-    height: 146px;
-}
-.get_your{
-    width: 425px;
-}
-
-.button_Leran_more{
+/*contenedor botton*/
+.contener__button{
+    margin-top: 70px;
     width: 163px;
     height: 57px;
     border: 1px solid hsl(0, 0%, 8%);
@@ -126,16 +113,12 @@ body{
     justify-content: center;
     align-items: center;
 }
-
-.contenido__img{
+/*imagenes pie de pagina*/
+.contener__img-pie{
     width: 512px;
-    height: 688px;
     overflow: hidden;
 }
-.img__pie{
+/*contenedor imagen principal*/
+.contener-img-principal{
     width: 476px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: flex-end;
 }

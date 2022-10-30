@@ -17,66 +17,74 @@
     <link rel="stylesheet" href="./button.css">
 </head>
 <body>
-    <nav class="bar__nav">
-        <p class="Snap">
+    <nav class="nav">
+        <p class="nav__Snap">
             snap
         </p>
-        <ul class="box__Menus"><!--menu feature-->
-            <span class="menu__Features" id="MenuF"> <a href="#">Features</a> <img src="./img/icon-arrow-down.svg" alt="" srcset="" class="icon__Down" id="ico">
-            <ul class="li_Menu_Features">
-                <li><img src="./img/icon-todo.svg" alt="libreta_Morada" srcset="" class="ico"><a href="#">Todo List</a></li>
-                <li><img src="./img/icon-calendar.svg" alt="Calendario" srcset=""class="ico"><a href="#">Calendar</a></li>
-                <li><img src="./img/icon-reminders.svg" alt="Campana" srcset=""class="ico"><a href="#">Reminders</a></li>
-                <li><img src="./img/icon-planning.svg" alt="" srcset=""class="ico"><a href="#">Planning</a></li>
-            </ul>
-            </span><!--fin menu feature-->
-            
-            <span class="menu__Company"><a href="">Company </a><img src="./img/icon-arrow-down.svg" alt="" srcset="" class="icon__Down">
-                <ul class="li_Menu_Company">
-                    <li><a href="">History</a></li>
-                    <li><a href="">Our team</a></li>
-                    <li><a href="">Blog</a></li>
+        <div class="nav__Menus">
+            <!--menu feature-->
+            <div class="nav__box-Menu-Feature"> 
+                <a href="#" class="nav__Menu-Desplegable-Features">
+                    Features
+                    <img src="./img/icon-arrow-up.svg" alt="no_imgen" class="nav__Menu-Desplegable-arron">
+                </a> 
+                <ul class="nav__Menu-Desplegable-lista">
+                    <li><img src="./img/icon-todo.svg" alt="libreta_Morada" class="nav__Menu-Desplegable-ico"><a href="#" class="menu-despegable__lista-Todo">Todo List</a></li>
+                    <li><img src="./img/icon-calendar.svg" alt="Calendario" class="nav__Menu-Desplegable-ico"><a href="#" class="menu-despegable__lista-Calendar">Calendar</a></li>
+                    <li><img src="./img/icon-reminders.svg" alt="Campana" class="nav__Menu-Desplegable-ico"><a href="#" class="menu-despegable__lista-Reminders">Reminders</a></li>
+                    <li><img src="./img/icon-planning.svg" alt="Planning" class="nav__Menu-Desplegable-ico"><a href="#" class="menu-despegable__listaReminders-Planning">Planning</a></li>
                 </ul>
-            </span><!--Company-->
-            <li> Careers</li>
-            <li><a href="#">About</a></li>
-        </ul>
-        <ul class="menu__Login">
-            <li> <a href="#">Login</a></li>
-            <li class="li__Register"><a href="#">Register</a></li>
-        </ul>
+            </div><!--fin menu feature-->
+            <!--menu Company-->
+            <div class="nav__box-Menu-Company">
+                <a href="#" class="nav__Menu-Desplegable-Company">
+                    Company 
+                    <img src="./img/icon-arrow-up.svg" alt="no_imgen" class="nav__Menu-Desplegable-arron--Company">
+                </a>
+                <ul class="nav__Menu-Desplegable-lista-Company">
+                    <li><a href="#" class="menu-despegable__lista-History">History</a></li>
+                    <li><a href="#" class="menu-despegable__lista-Our">Our team</a></li>
+                    <li><a href="#" class="menu-despegable__lista-Blog">Blog</a></li>
+                </ul>
+            </div><!--fin menu Company-->
+            <a href="#" class="nav__Careers">Careers</a>
+            <p class="nav__About"> <a href="#" class="nav__About">About</a></p>
+        </div>
+        <div class="nav__box-login">
+            <a href="#" class="nav__Text-login">Login</a>
+            <a href="#" class="nav__Botton-Register">
+                <p class="nav__Botton-Register-Text">
+                    Register
+                </p>
+            </a>
+        </div>
     </nav>
-    <div class="contenedor__padre">
-        <section class="contenido__texto">
-            <h1 class="make">
-                Make <br>remote work
+    <!--box para texto e imagen-->
+    <div class="contener">
+        <section class="contener__text">
+            <h1 class="contener__text-titulo">
+                Make remote work
             </h1>
-            <p class="get__your">
+            <p class="contener__text-parafo">
                 Get your team in sync, no matter your location.
                 Streamline processes, create team rituals, and 
                 watch productivity soar.
             </p>
-            <a href="#" class="Color__Text"></a>
-                <section class="button_Leran_more" >
+            <a href="#" class="contener__button">
+                <p class="contener__text-button" >
                     Learn more
-                </section>
+                </p>
             </a>
-            <section class="img__pie">
-                <img src="./img/client-databiz.svg" width="111px" height="21px" alt="" srcset="">
-                <img src="./img/client-audiophile.svg" width="73px" height="36px" alt="" srcset="">
-                <img src="./img/client-meet.svg" width="90px" height="20px" alt=""  srcset="">
-                <img src="./img/client-maker.svg" width="83px" height="26px" alt="" srcset="">
-            </section>
+            <div class="contener__img-pie">
+                <img src="./img/client-databiz.svg" alt="no_imgen" width="111" height="21" class="contener__img-databiz">
+                <img src="./img/client-audiophile.svg" alt="no_imgen" width="73" height="36"  class="contener__img-audiophile">
+                <img src="./img/client-meet.svg" alt="no_imgen" width="90" height="20"   class="contener__img-meet">
+                <img src="./img/client-maker.svg" alt="no_imgen" width="83" height="26"  class="contener__img-maker">
+            </div>
         </section>
-        <section class="contenido__img">
-            <img src="./img/image-hero-desktop.png" width="512px" height="688px" alt="no_imgen">
-        </section>
+        <div class="contener-img-principal">
+            <img src="./img/image-hero-desktop.png" width="512" height="688" alt="no_imgen" class="contener-img-main">
+        </div>
     </div>
 </body>
-
-    <div>
-        
-        <img src="./img/icon-arrow-up.svg" alt="" srcset="">  
-    </div>
-
 </html>

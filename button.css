@@ -1,32 +1,27 @@
-/*******menu Features****/
-.menu__Features:hover >  img{
-    transform: rotate(-180deg);
-}
-.menu__Features:hover > .li_Menu_Features {
-    display: flex;
-}
-
-/*******menu Features****/
-.menu__Company:hover >  img{
-    transform: rotate(-180deg);
-}
-.menu__Company:hover > .li_Menu_Company {
-    display: flex;
-    cursor: pointer;                
-}
-
 a:hover{
     color: hsl(0, 0%, 8%);
     font-weight: 500;
 }
+/*******Menu Features****/
+.nav__Menu-Desplegable-Features:hover > .nav__Menu-Desplegable-arron{
+    transform: rotate(-180deg);
 
-.Color__Text{
-    color: hsl(0, 0%, 98%);
 }
 
-/*botton Learn more*/
-.button_Leran_more:hover {
+.nav__box-Menu-Feature:hover > .nav__Menu-Desplegable-lista{
+    display: flex;
+}
+/******Menu Company******/
+.nav__Menu-Desplegable-Company:hover >  .nav__Menu-Desplegable-arron--Company{
+    transform: rotate(-180deg);
+}
+
+.nav__box-Menu-Company:hover > .nav__Menu-Desplegable-lista-Company{
+    display: flex;
+}
+/******boton Learn***/
+.contener__button:hover {
     background-color: hsl(0, 0%, 98%);
     color: hsl(0, 0%, 8%);
-    border: 1px, solid, hsl(0, 0%, 8%);
+    border: 1px solid hsl(0, 0%, 8%);
 }
