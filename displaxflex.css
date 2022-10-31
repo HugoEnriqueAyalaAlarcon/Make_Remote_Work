@@ -1,7 +1,7 @@
 /*dimenciones barra de navegacion*/
-*{
-    /*outline: red 1px solid;*/
-}
+/**{
+    /*outline: red 1px solid;
+}*/
 .nav{
     margin-top: 22px;
     height: 43px;
@@ -46,7 +46,7 @@
 .nav__Menu-Desplegable-ico{
     padding-right: 10px;
 }
-/*menu company
+/*menu company*/
 .nav__box-Menu-Company{
     position: relative;
     height: 60px;
