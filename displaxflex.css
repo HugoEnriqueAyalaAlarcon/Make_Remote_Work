@@ -77,7 +77,7 @@
     align-items: center;
 }
 /*bordes register*/
-.nav__Botton-Register{
+#nav__Botton-Register{
     width: 104px;
     height: 42px;
     border: 2px solid hsl(0, 0%, 41%);
@@ -85,6 +85,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 18px;
+    background-color: hsl(0, 0%, 98%);
+    color: hsl(0, 0%, 41%);
 }
 /*************************fin de nav*************/
 /*contenedor pincipal texto e imagenes*/
@@ -165,14 +168,14 @@
     justify-content: space-around;
     align-items: center;
 }
-#card__user, #card__pass, #button__submint{
+#card__user, #card__pass, #button__submint,#button__cancel{
     text-align: center;
     width: 100px;
     height: 40px;
     border: 1px solid rgb(112, 112, 112);
     border-radius: 5%;
 }
-#button__submint{
+#button__submint , #button__cancel{
     background-color: rgb(62, 62, 62);
     color: aliceblue;
     box-shadow: 0px 0px 20px 2px rgb(155, 155, 155);

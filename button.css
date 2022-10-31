@@ -24,9 +24,19 @@ a:hover{
     background-color: hsl(0, 0%, 98%);
     color: hsl(0, 0%, 8%);
     border: 1px solid hsl(0, 0%, 8%);
+    cursor: pointer;
 }
 
+/*boton loagin*/
 #button__Login:hover{
     color: hsl(0, 0%, 8%);
     font-weight: 500;
+    cursor: pointer;
+}
+
+/*boton loagin*/
+#nav__Botton-Register:hover{
+    color: hsl(0, 0%, 8%);
+    font-weight: 500;
+    cursor: pointer;
 }
