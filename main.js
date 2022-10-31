@@ -16,11 +16,33 @@ function button_learn_more(){
 }
 
 document.getElementById("contener__button-onclik").onclick = function(){button_learn_more();}
-/**
-let Cambia_texto_resultado="texto cambiado";
-function boton(){
-    document.getElementById("resultado").innerHTML=Cambia_texto_resultado;
+
+
+/*********boton login */
+let user="Funval",cUser,
+    pass="Funval",cPass,
+    button,button__Login,card;
+button=document.getElementById("button__submint");
+button__Login=document.getElementById("button__Login");
+card=document.getElementById("card");
+console.log(button);
+
+let getData=function(){
+    cUser=document.getElementById("card__user").value;
+    cPass=document.getElementById("card__pass").value;
+    console.log(cUser);
+    console.log(cPass);
+    if(cUser=="Funval" && cPass=="Funval"){
+        alert("Bienvenido")
+        card.style.display="none";
+        button__Login.innerHTML="Funval";
+        button__Login.style.color="black";
+    }
 }
-document.getElementById("boton-a").onclick = function(){boton();}
-document.getElementById("boton-p").onclick = function(){boton();}*/
-/*learn less aprende menos*/ 
+let cardVisible=function(){
+    card.style.display="flex";
+}
+
+button.onclick=getData;
+button__Login.onclick=cardVisible;
+console.log(cUser);

@@ -25,3 +25,8 @@ a:hover{
     color: hsl(0, 0%, 8%);
     border: 1px solid hsl(0, 0%, 8%);
 }
+
+#button__Login:hover{
+    color: hsl(0, 0%, 8%);
+    font-weight: 500;
+}
