@@ -1,4 +1,7 @@
 /*dimenciones barra de navegacion*/
+*{
+    /*outline: red 1px solid;*/
+}
 .nav{
     margin-top: 22px;
     height: 43px;
@@ -101,17 +104,24 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    position: relative;
 }
 /*contenedor botton*/
 .contener__button{
-    margin-top: 70px;
     width: 163px;
     height: 57px;
+    top: 450px;
+    position: absolute;
     border: 1px solid hsl(0, 0%, 8%);
     border-radius: 15px;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+/*contener__text-parafo*/
+.contener__text-parafo{
+    position: absolute;
+    top: 185px;
 }
 /*imagenes pie de pagina*/
 .contener__img-pie{
