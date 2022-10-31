@@ -31,7 +31,7 @@ let getData=function(){
     if (registro_Status==0){
         cUser=document.getElementById("card__user").value;
         cPass=document.getElementById("card__pass").value;
-        if(cUser==user && cPass==pass){
+        if(cUser==user && cPass==pass && cUser!=""  && cPass!=""){
             alert("Bienvenido "+user);
             card.style.display="none";
             button__Login.innerHTML=user;
