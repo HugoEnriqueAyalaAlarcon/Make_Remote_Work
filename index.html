@@ -19,87 +19,89 @@
     <script src="./main.js" defer></script>
 </head>
 <body>
-    <nav class="nav">
-        <p class="nav__Snap">
-            snap
-        </p>
-        <div class="nav__Menus">
-            <!--menu feature-->
-            <div class="nav__box-Menu-Feature"> 
-                <a href="#" class="nav__Menu-Desplegable-Features">
-                    Features
-                    <img src="./img/icon-arrow-up.svg" alt="no_imgen" class="nav__Menu-Desplegable-arron">
-                </a> 
-                <ul class="nav__Menu-Desplegable-lista">
-                    <li><img src="./img/icon-todo.svg" alt="libreta_Morada" class="nav__Menu-Desplegable-ico"><a href="#" class="menu-despegable__lista-Todo">Todo List</a></li>
-                    <li><img src="./img/icon-calendar.svg" alt="Calendario" class="nav__Menu-Desplegable-ico"><a href="#" class="menu-despegable__lista-Calendar">Calendar</a></li>
-                    <li><img src="./img/icon-reminders.svg" alt="Campana" class="nav__Menu-Desplegable-ico"><a href="#" class="menu-despegable__lista-Reminders">Reminders</a></li>
-                    <li><img src="./img/icon-planning.svg" alt="Planning" class="nav__Menu-Desplegable-ico"><a href="#" class="menu-despegable__listaReminders-Planning">Planning</a></li>
-                </ul>
-            </div><!--fin menu feature-->
-            <!--menu Company-->
-            <div class="nav__box-Menu-Company">
-                <a href="#" class="nav__Menu-Desplegable-Company">
-                    Company 
-                    <img src="./img/icon-arrow-up.svg" alt="no_imgen" class="nav__Menu-Desplegable-arron--Company">
-                </a>
-                <ul class="nav__Menu-Desplegable-lista-Company">
-                    <li><a href="#" class="menu-despegable__lista-History">History</a></li>
-                    <li><a href="#" class="menu-despegable__lista-Our">Our team</a></li>
-                    <li><a href="#" class="menu-despegable__lista-Blog">Blog</a></li>
-                </ul>
-            </div><!--fin menu Company-->
-            <a href="#" class="nav__Careers">Careers</a>
-            <p class="nav__About"> <a href="#" class="nav__About">About</a></p>
-        </div>
-        <div class="nav__box-login">
-            <button id="button__Login">login</button>
-            <div id="card">
-                <p id="card__user-txt">
-                    usuario
-                </p>
-                <input type="Text" name="user" value="" id="card__user">
-                <p id="card__pass-txt">
-                    pass 
-                </p>
-                <input type="password" name="user" value=""  id="card__pass">
-                <button id="button__submint">
-                    Submint
-                </button>
-                <button id="button__cancel">
-                    Cancel
-                </button>
-            </div>
-            <button  id="nav__Botton-Register">
-                    Register
-            </button>
-        </div>
-    </nav>
-    <!--box para texto e imagen-->
-    <div class="contener">
-        <section class="contener__text">
-            <h1 class="contener__text-titulo">
-                Make remote work
-            </h1>
-            <p class="contener__text-parafo" id="contener__text-parafo--dinamico">
-                Get your team in sync, no matter your location.
-                Streamline processes, create team rituals, and 
-                watch productivity soar.
+    <div id="centarWeb">
+        <nav class="nav">
+            <p class="nav__Snap">
+                snap
             </p>
-            <div class="contener__button" id="contener__button-onclik">
-                <p class="contener__text-button" id="contener__text-button--dinamico">
-                    Learn more
+            <div class="nav__Menus">
+                <!--menu feature-->
+                <div class="nav__box-Menu-Feature"> 
+                    <a href="#" class="nav__Menu-Desplegable-Features">
+                        Features
+                        <img src="./img/icon-arrow-up.svg" alt="no_imgen" class="nav__Menu-Desplegable-arron">
+                    </a> 
+                    <ul class="nav__Menu-Desplegable-lista">
+                        <li><img src="./img/icon-todo.svg" alt="libreta_Morada" class="nav__Menu-Desplegable-ico"><a href="#" class="menu-despegable__lista-Todo">Todo List</a></li>
+                        <li><img src="./img/icon-calendar.svg" alt="Calendario" class="nav__Menu-Desplegable-ico"><a href="#" class="menu-despegable__lista-Calendar">Calendar</a></li>
+                        <li><img src="./img/icon-reminders.svg" alt="Campana" class="nav__Menu-Desplegable-ico"><a href="#" class="menu-despegable__lista-Reminders">Reminders</a></li>
+                        <li><img src="./img/icon-planning.svg" alt="Planning" class="nav__Menu-Desplegable-ico"><a href="#" class="menu-despegable__listaReminders-Planning">Planning</a></li>
+                    </ul>
+                </div><!--fin menu feature-->
+                <!--menu Company-->
+                <div class="nav__box-Menu-Company">
+                    <a href="#" class="nav__Menu-Desplegable-Company">
+                        Company 
+                        <img src="./img/icon-arrow-up.svg" alt="no_imgen" class="nav__Menu-Desplegable-arron--Company">
+                    </a>
+                    <ul class="nav__Menu-Desplegable-lista-Company">
+                        <li><a href="#" class="menu-despegable__lista-History">History</a></li>
+                        <li><a href="#" class="menu-despegable__lista-Our">Our team</a></li>
+                        <li><a href="#" class="menu-despegable__lista-Blog">Blog</a></li>
+                    </ul>
+                </div><!--fin menu Company-->
+                <a href="#" class="nav__Careers">Careers</a>
+                <p class="nav__About"> <a href="#" class="nav__About">About</a></p>
+            </div>
+            <div class="nav__box-login">
+                <button id="button__Login">login</button>
+                <div id="card">
+                    <p id="card__user-txt">
+                        usuario
+                    </p>
+                    <input type="Text" name="user" value="" id="card__user">
+                    <p id="card__pass-txt">
+                        pass 
+                    </p>
+                    <input type="password" name="user" value=""  id="card__pass">
+                    <button id="button__submint">
+                        Submint
+                    </button>
+                    <button id="button__cancel">
+                        Cancel
+                    </button>
+                </div>
+                <button  id="nav__Botton-Register">
+                        Register
+                </button>
+            </div>
+        </nav>
+        <!--box para texto e imagen-->
+        <div class="contener">
+            <section class="contener__text">
+                <h1 class="contener__text-titulo">
+                    Make remote work
+                </h1>
+                <p class="contener__text-parafo" id="contener__text-parafo--dinamico">
+                    Get your team in sync, no matter your location.
+                    Streamline processes, create team rituals, and 
+                    watch productivity soar.
                 </p>
+                <div class="contener__button" id="contener__button-onclik">
+                    <p class="contener__text-button" id="contener__text-button--dinamico">
+                        Learn more
+                    </p>
+                </div>
+                <div class="contener__img-pie">
+                    <img src="./img/client-databiz.svg" alt="no_imgen" width="111" height="21" class="contener__img-databiz">
+                    <img src="./img/client-audiophile.svg" alt="no_imgen" width="73" height="36"  class="contener__img-audiophile">
+                    <img src="./img/client-meet.svg" alt="no_imgen" width="90" height="20"   class="contener__img-meet">
+                    <img src="./img/client-maker.svg" alt="no_imgen" width="83" height="26"  class="contener__img-maker">
+                </div>
+            </section>
+            <div class="contener-img-principal">
+                <img src="./img/image-hero-desktop.png" width="512" height="688" alt="no_imgen" class="contener-img-main">
             </div>
-            <div class="contener__img-pie">
-                <img src="./img/client-databiz.svg" alt="no_imgen" width="111" height="21" class="contener__img-databiz">
-                <img src="./img/client-audiophile.svg" alt="no_imgen" width="73" height="36"  class="contener__img-audiophile">
-                <img src="./img/client-meet.svg" alt="no_imgen" width="90" height="20"   class="contener__img-meet">
-                <img src="./img/client-maker.svg" alt="no_imgen" width="83" height="26"  class="contener__img-maker">
-            </div>
-        </section>
-        <div class="contener-img-principal">
-            <img src="./img/image-hero-desktop.png" width="512" height="688" alt="no_imgen" class="contener-img-main">
         </div>
     </div>
 </body>
