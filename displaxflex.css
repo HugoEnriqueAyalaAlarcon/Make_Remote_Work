@@ -71,7 +71,7 @@
 }
 /*caja padre de login y register*/
 .nav__box-login{
-    margin-left: 40.375%;
+    margin-left: 30.375%;
     margin-right: 2.91%;
     width: 200px;
     display: flex;
@@ -144,6 +144,7 @@
 
 
 #button__Login{
+    margin-right: 15%;
     width: max-content;
     display: flex;
     justify-content: end;
