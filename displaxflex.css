@@ -1,7 +1,4 @@
-/*dimenciones barra de navegacion*/
-*{
-   /* outline: red 1px solid;*/
-}
+
 #centarWeb{
     width: 100vw;
     display: flex;
@@ -74,7 +71,8 @@
 }
 /*caja padre de login y register*/
 .nav__box-login{
-    margin-left: 44.375%;
+    margin-left: 40.375%;
+    margin-right: 2.91%;
     width: 200px;
     display: flex;
     align-items: center;
